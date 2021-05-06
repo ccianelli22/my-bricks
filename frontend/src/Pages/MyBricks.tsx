@@ -28,13 +28,13 @@ const MyBricks: React.FC<Props> = ({ toRefresh }) => {
 	}, [toRefresh])
 
 	return (
-		<>
+		<div className="h-screen">
 			{isLoading ? (
 				<Loading />
 			) : (
 				posts.length > 0 && <PostCardInfo posts={posts} />
 			)}
-		</>
+		</div>
 	)
 }
 export default MyBricks

@@ -33,8 +33,8 @@ const SearchResults: React.FC<Props> = (Props) => {
 	}, [searchbarVal, filterVal])
 
 	return (
-		<div className="flex flex-col m-4 text-center">
-			<div className="flex-1 text-xl font-semibold">
+		<div className="flex flex-col h-screen m-4 text-center">
+			<div className="text-xl font-semibold">
 				<h3>{"Your results for:"}</h3>
 				<p className="italic">{searchbarVal}</p>
 				<p className="italic">{filterVal}</p>

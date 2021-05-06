@@ -1,3 +1,9 @@
+# Demonstration
+
+- [Youtube]()
+
+#
+
 # Getting Started
 
 ## Prerequisites:
@@ -43,9 +49,10 @@ The server will listen for incoming requests on port 3001.
 ## Getting Started
 
 - Ensure MongoDB is running. In a terminal you can run
-     - On Linux: `sudo service mongo start`
-     - On Windows: `mongo`
-          - _You may need to run this command in the folder where MongoDB is installed_
+
+     - On Linux: `sudo service mongodb start`
+     - On Windows: `mongo` - _You may need to run this command in the folder where MongoDB is installed_
+
 - In the terminal window, go to my-bricks/frontend directory and run `npm start`
 - In a new terminal window, go to my-bricks/backend directory and run `npm run start`
 
